@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build output
+/dist/
+*.zip
+
+# Secrets and local environment: never commit these
+.env
+.env.*
+wp-config.php
+*.local.php
+auth.json
+
+# Dependencies (if you add tooling later)
+node_modules/
+vendor/
